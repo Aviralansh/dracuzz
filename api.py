@@ -2,7 +2,7 @@ from googleapiclient import discovery
 import json
 import os
 
-API_KEY = 'AIzaSyCgMHtOGMR4jpbSJG6_JJBhR-egPapWWq4'
+API_KEY=os.getenv("API_KEY")
 
 while True:
 
