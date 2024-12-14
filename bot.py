@@ -2,7 +2,6 @@ import discord
 from discord import Guild, app_commands
 from discord.ext import commands
 from googleapiclient import discovery
-import requests
 import os
 from dotenv import load_dotenv
 
